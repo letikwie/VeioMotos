@@ -3,10 +3,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background: #111;
     color: #fff;
+    background-image: linear-gradient(120deg, #1a1a1a, #2a2a2a);
 }
 
 header {
-    background: #b30000;
+    background: #882a2a;
     color: #fff;
     padding: 24px 0;
     text-align: center;
@@ -30,6 +31,8 @@ header h1 {
     border-radius: 8px;
     padding: 24px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .texto-centralizado {
@@ -39,6 +42,14 @@ header h1 {
 .sobre-secao h2 {
     color: #b30000;
     margin-top: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sobre-secao p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #ddd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .grid-cards {
@@ -46,7 +57,6 @@ header h1 {
     gap: 24px;
     justify-content: center;
     margin-top: 24px;
-    flex-wrap: wrap;
 }
 
 .card {
@@ -78,6 +88,14 @@ header h1 {
 .card-content h4 {
     color: #b30000;
     margin: 0 0 8px 0;
+}
+
+.card-content p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: #ddd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .servico-item summary {
